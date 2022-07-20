@@ -1,0 +1,321 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+.logo{
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-small{
+    letter-spacing: 5px;
+    font-size: 13px;
+}
+
+.text-dum{
+    color: #B49383 !important;
+    font-family: 'Princess Sofia', cursive  !important;
+}
+
+.font-sofia{
+    font-family: 'Princess Sofia', cursive !important;
+}
+
+.font-pt{
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+
+.reservations_phone{            
+    text-align: center;
+    border: solid 2px #fff;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.text-brown{
+    color: #B49383 !important;
+}
+
+#home{
+    background-image: url(../img/home.jpg.webp);
+    height: 105vh;
+    background-position: center;    
+}
+
+.nav-link{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+}
+
+.home-text{
+    padding-top: 12em;
+}
+
+.big-box{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .left-first{
+    margin-right: 50px;
+    width: 90vh;
+    height: 90vh;
+    background-image: url(../img/xintro_1.jpg.pagespeed.ic.6T7ouASoq7.webp) ;
+}
+
+.left-second{
+    width: 90vh;
+    height: 90vh;
+    background-image: url(../img/xintro_2.jpg.pagespeed.ic.haWs9Cm689.webp) ;
+    z-index: -1;
+} 
+
+.right{ 
+    width: 150vh;
+    height: 65vh;
+    background-color: white;
+    border: 3px solid #B49383;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 59px;
+    padding-left: 70px;
+    z-index: -1;
+    margin-left: -50px;
+}
+
+.right h1{
+    font-family: 'Princess Sofia', cursive !important;
+    font-size: 20px;
+    color: #B49383 !important;
+}
+
+.right h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 26px;
+    padding-right: -500px;
+}
+
+.video{
+    margin-top: 60px;
+    width: 100vh;
+    height: 70vh;
+}
+
+.food-selection{
+    font-weight: 500;
+}
+
+.icons{
+    color: #B49383;
+}
+
+.box{
+    border: 3px solid #B49383;
+    background-color: #fff;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+
+.background_image{
+    justify-content: center;
+    width: 30vh;
+    height: 70vh;
+    z-index: -1;
+}
+
+.button{
+    display: block;
+    font-size: 18px;
+    color: #b49383;
+    border: 2px solid #B49383;
+}
+
+.button :hover{
+    display: block;
+    font-size: 18px;
+    background: #B49383;
+    color: white;
+    border: 2px solid #B49383;
+    box-sizing: border-box ;
+}
+
+.menu-box{
+    width: 90%;
+    margin: 60px;
+    height: 25vh;
+    background-color: black;
+}
+
+.menu{    
+    border: 2px solid #b493837b;
+    height: 80%;
+    margin: auto;
+    justify-content: center;
+    width: 95%;
+}
+
+.bar{
+    color: #B49383;
+    background-color: black;
+    width: 18%;
+    margin: 0px auto;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    top: -15px;
+}
+
+.icon{
+    color: #B49383;
+    background-color: black;
+    width: 12%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    z-index: 1;
+    top: -10px;
+    position: relative;
+}
+
+.video{
+    height: fit-content !important;
+}
+
+.intro-section{
+    border: 1px solid #b49383;
+    width: 30px;
+    height: 60vh;
+}
+
+.btn{
+    color: #B49383;
+    font-size: xx-large;
+    border: 2px solid #B49383;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+
+.order{
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    color: #B49383;
+}
+
+#buttom{
+    margin-top: 65px;
+    background-image: url(../img/reservations.jpg.webp);
+    height: 85vh;
+    background-position: center;    
+}
+
+.text-1{
+    margin-top: 20px !important;
+}
+
+#form{
+    margin: auto 0;
+}
+
+#datepicker , #timepicker , .select{
+    background-color: transparent;
+    border: 2px solid #B49383;
+    margin-left: 30px;
+    width: 13rem;
+    height: 45px;
+    color: #fff;
+    padding-left: 10px;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+
+.button{
+    background-color: #B49383;
+    border: 2px solid #B49383;
+    margin: 30px 34rem ;
+    width: 13rem;
+    height: 45px;
+    color: #fff;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+}
+
+.container-fluid{
+    padding: 10px;
+}
+
+.footer_small{ 
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+.copy{
+    font-size: 13px;
+}
+
+.copy u{
+    color: #b49383;
+    padding-top: 5px;
+}
+
+.text-p{
+    font-size: 13px;
+    line-height: 1.875;
+    font-weight: 400;
+}
+
+.footer_contact{
+    background-color: #B49383;
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    font-size: .9em;
+}
+
+.footer_contact_text{
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    font-size: .9em; 
+    padding-left: 10px;  
+}
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 1200px){
+    .right{
+        position: relative;
+        top: -530px;
+        left: 60%;
+        z-index: 100;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .left-first{
+        width: 90vh;
+        height: 90vh;
+    }
+    
+    .left-second{
+        width: 90vh;
+        height: 90vh;
+    } 
+}
+
+
+@media only screen and (max-width: 992px){
+    .reservations_phone {
+        display: none;
+    }
+    
+}
